@@ -17,7 +17,7 @@ Environment:
 - Python 3.7
 
 Dependencies
-Please see full list of dependencies [here](SurfsUp_Challenge.ipynb)
+- Please see full list of dependencies [here](SurfsUp_Challenge.ipynb)
 
 Software:
 - Jupyter Notebook
