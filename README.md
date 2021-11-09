@@ -11,13 +11,13 @@ The analysis consists of two parts:
 
 Resources
 Data Source:
-- hawaii.sqlite
+- [hawaii.sqlite](hawaii.sqlite)
 
 Environment:
 - Python 3.7
 
 Dependencies
-Please see full list of dependencies here
+Please see full list of dependencies [here](SurfsUp_Challenge.ipynb)
 
 Software:
 - Jupyter Notebook
@@ -27,17 +27,17 @@ Software:
 The analysis focuses on the temperature and rainfall from six different weather stations on Oahu, Hawaii from 2010 to 2017 for June and December. The data collected presented a pretty ideal location for a year-round surf-and-ice cream business.
 
 ### Comparison of the Temperatures for June and December
-1. Count of Data
+<b> 1. Count of Data </b>
  - There is less data for December (1517 data points) than for June (1700 data points).
 
-2. Std Deviation, Median, Mean, Min & Max
+<b> 2. Std Deviation, Median, Mean, Min & Max </b>
 - Temperatures are more spread out in December (std = 3.7) than in June (std = 3.3).
 - June’s mean and median are 74.94 °F and 75.00 °F respectively.
 - December’s mean and median are 71.04 °F and 71.0 °F respectively.
 - Maximum temperature in December is 83 °F and in June is 85 °F.
 - Minimum temperature in December is 56 °F and in June is 64 °F.
 
-3. Quartiles
+<b> 3. Quartiles </b>
 - 1st quartile: 25% of all data is below 69 °F in December and 73 °F in June.
 - 3rd quartile 75% of all data is below 74 °F in December and 77 °F in June.
 
@@ -50,31 +50,29 @@ Summary Statistics of Temperatures for December and June in Oahu, Hawaii.
 </p>
 
 ### Comparison of the Rainfall for June and December
-1. Count of data
+<b> 1. Count of data </b>
 - There is less data for December (1405 data points) than for June (1574 data points).
 
-2. Std Deviation, Median, Mean, Min & Max
+<b> 2. Std Deviation, Median, Mean, Min & Max </b>
 - Rainfall quantity is more spread out in December (std = 0.5) than in June (std = 0.33).
 - June’s mean and median are 0.13 inches and 0.02 inches respectively.
 - December’s mean and median are 0.21 inches and 0.03 inches respectively.
 - Maximum rainfall in December is 6.42 inches and 4.43 inches in June.
 - Minimum rainfall in December is 0 inches and 0 inches in June.
 
-3. Quartiles
+<b> 3. Quartiles </b>
 - 1st quartile: 25% of all data is at 0 inches in December and 0 inches in June.
 - 3rd quartile 75% of all data is below 0.15 inches in December and 0.12 inches in June.
 
 ## Summary
 ### Temperatures for June and December
-From the temperature report we can see that there is not much difference in the weather in June and December, indicating mild and steady temperatures year-round. Mean and median – also known as 2nd quartile - are closely together, meaning that distribution of the data is not spread out. To find out protentional outliers and other trends, the box and whisker chart can tell us more about that.
+The data collected presented a pretty ideal location for a year-round surf-and-ice cream business. From the temperature report we can see that there is not much difference in the weather in June and December, indicating mild and steady temperatures year-round. Mean and median – also known as 2nd quartile - are closely together, meaning that distribution of the data is not spread out. To find out potential outliers and other trends, the box and whisker chart can tell us more about that.
 
 <p align="center">
 <img src="Graphics/JuneDecTempsBoxPlot.png">
 </p>
 <p align="center">
-Summary Statistics of Temperatures for December and June in Oahu, Hawaii. 
+Box and Whisker Plot of Temperatures for December and June in Oahu, Hawaii.
 </p>
 
-Box and Whisker Plot of Temperatures for December and June in Oahu, Hawaii.
-
-From the graph we can see that there are just a few outliers. There are more outliers below the lower boundary in December, however the minimum temperature is 56 °F.
+From the graph we can see that there are just a few outliers. There are more outliers below the lower boundary in December, the minimum temperature is 56 °F.
