@@ -43,7 +43,7 @@ The analysis focuses on the temperature and rainfall from six different weather 
 
 
 <p align="center">
-<img src="Graphics/DecTemps.PNG" width="200px" height="300px"> <img src="Graphics/JuneTemps.PNG" width="`900px" height="300px">
+<img src="Graphics/DecTemps.PNG" width="21%" height="21%"> <img src="Graphics/JuneTemps.PNG" width="17%" height="17%">
 </p>
 <p align="center">
 Summary Statistics of Temperatures for December and June in Oahu, Hawaii. 
@@ -63,6 +63,13 @@ Summary Statistics of Temperatures for December and June in Oahu, Hawaii.
 <b> 3. Quartiles </b>
 - 1st quartile: 25% of all data is at 0 inches in December and 0 inches in June.
 - 3rd quartile 75% of all data is below 0.15 inches in December and 0.12 inches in June.
+
+<p align="center">
+<img src="Graphics/DecRain.PNG" width="14.8%" height="14.8%"> <img src="Graphics/JuneRain.PNG" width="15.5%" height="15.5%">
+</p>
+<p align="center">
+Summary Statistics of Rainfall for December and June in Oahu, Hawaii. 
+</p>
 
 ## Summary
 ### Temperatures for June and December
